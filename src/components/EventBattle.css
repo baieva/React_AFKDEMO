@@ -1,0 +1,74 @@
+.battleArea {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.portraitsArea {
+    display: flex;
+    position:relative;
+    flex-flow: row;
+    width: 90%;
+    height: 90px;
+}
+
+.portraitsArea #l{
+    position: absolute;
+    left:25%;
+    transform: translateX(-25%);
+}
+
+.portraitsArea #m{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.portraitsArea #r{
+    position: absolute;
+    left:75%;
+    transform: translateX(-75%);
+}
+
+.battleMessages {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    height: 80px;
+}
+
+.battleMessages #up {
+    position: absolute;
+    margin: auto;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.battleMessages #mid {
+    position: absolute;
+    margin: auto;
+    top:30%;
+    white-space: pre;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.battleMessages #down {
+    position: absolute;
+    margin: auto;
+    top:65%;
+    white-space: pre;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.skillArea {
+    display: table-cell;
+    overflow: scroll;
+    text-align: left;
+}
+
+.skillArea button{
+    width:50%;
+}
